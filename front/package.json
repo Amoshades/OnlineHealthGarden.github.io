@@ -9,17 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "^1.6.2",
+    "debug": "^4.3.4",
+    "next": "^13.5.3",
     "react": "latest",
     "react-dom": "latest",
-    "next": "latest"
+    "supports-color": "^9.4.0"
   },
   "devDependencies": {
-    "typescript": "latest",
-    "@types/react": "latest",
+    "@iconify/react": "^4.1.1",
     "@types/node": "latest",
+    "@types/react": "latest",
     "@types/react-dom": "latest",
     "autoprefixer": "latest",
+    "daisyui": "^4.4.19",
     "postcss": "latest",
-    "tailwindcss": "latest"
+    "tailwindcss": "latest",
+    "typescript": "latest"
   }
 }
