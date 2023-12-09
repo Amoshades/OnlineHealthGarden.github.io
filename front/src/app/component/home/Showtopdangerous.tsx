@@ -24,7 +24,7 @@ export default function ShowTopDangerous() {
     <div className='w-[80%] h-auto mx-auto mt-40'>
       <div className='text-center text-white text-5xl font-bold mb-20'>9 อันดับบุคคลอันตราย</div>
       <div className='w-full h-auto flex flex-row gap-8 items-center justify-center '>
-        {topdanger.map((e: any) => {
+        {topdanger.slice(1,10).map((e: any) => {
           return (
             <TopDangerWidget id={e.id} img={e.avatarPhoto} name={e.name} total={e.transferAmount.toLocaleString()} />
           )

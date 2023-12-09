@@ -10,7 +10,7 @@ const config: Config = {
                   
           "secondary": "#748FB5",
                   
-          "accent": "#fff",
+          "accent": "#2C353D",
                   
           "neutral": "#fff",
                   
