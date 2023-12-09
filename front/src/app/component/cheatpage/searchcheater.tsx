@@ -12,9 +12,9 @@ export default function SearchCheater() {
         const headers = {
           'Content-Type': 'application/json'
         };
-        const response = await axios.get(`https://66bhg8s9-8080.asse.devtunnels.ms/api/scammers/top-9`, { headers });
+        const response = await axios.get(`https://66bhg8s9-8080.asse.devtunnels.ms/api/scammers/get-all-scammers`, { headers });
         setList(response.data.scammers)
-        console.log()
+        console.log(response.data)
     
       }
       useEffect(() => {
@@ -34,12 +34,12 @@ export default function SearchCheater() {
                 </div>
             </div>
             <div className='mx-auto w-[20%]'>
-                <button className='btn btn-primary px-3 text-white w-full'> แจ้งรายชื่อผู้โกง </button>
+                <a href='/ScammerInformation' className='btn btn-primary px-3 text-white w-full'> แจ้งรายชื่อผู้โกง </a>
             </div>
             <div className=' grid grid-cols-2 grid-flow-row gap-5 mb-10'>
                 {list.map((e: any) => {
                     return (
-                        <CheatList id={e} tag={e} name={e} />
+                        <CheatList id={e.id} tags={e.tags} img={e.avatarPhoto} firstName={e.firstName} lastName={e.lastName} gender={e.gender} totalScammedAmount={e.totalScammedAmount} thaiId={e.thaiId} />
                     )
                 })}
 
