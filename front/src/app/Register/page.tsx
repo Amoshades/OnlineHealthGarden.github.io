@@ -2,16 +2,18 @@
 import React from 'react'
 import Footer from '../component/footer/footer'
 import { Icon } from '@iconify/react';
+import { useRouter } from 'next/navigation'
 
 export default function Register() {
     
+    const router = useRouter()
 
     return (
         <div className='w-full min-h-screen h-auto'>
            <div className=' w-[80%] h-auto mx-auto my-20 flex flex-row items-center gap-5'>
-                <a href='/Login' className='btn btn-accent text-secondary-500 '>
+                <button className='btn btn-accent text-secondary-500 ' onClick={() => router.back()}>
                     <Icon icon="majesticons:arrow-left" className='w-[80%] h-auto' width="30" height="30"/>
-                </a>
+                </button>
                 <p className=' font-Poppins font-bold text-white text-xl'>สมัครสมาชิก</p>
            </div>
             <div className='w-[80%] h-auto mx-auto bg-slate-600 rounded-xl mb-32 font-Poppins p-[5%]'>

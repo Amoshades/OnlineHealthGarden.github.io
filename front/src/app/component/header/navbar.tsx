@@ -20,7 +20,7 @@ export default function NavBar() {
                 หน้าแรก
               </a>
             </li>
-            <li><a className='hover:text-primary-500'>รายชื่อผู้โกง</a></li>
+            <li><a href='/Cheaterslist' className={`hover:text-primary-500 ${pathname === '/Cheaterslist' ? 'text-primary-500' : ''}`}>รายชื่อผู้โกง</a></li>
             <li><a className='hover:text-primary-500'>เกี่ยวกับฉัน</a></li>
           </ul>
           <a className="btn btn-primary text-white ml-7" href='/Login'>ลงชื่อเข้าใช้</a>
