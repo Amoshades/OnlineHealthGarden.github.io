@@ -6,7 +6,7 @@ export default function NavBar() {
   const pathname = usePathname()
   const router = useRouter();
   return (
-    <div className='w-[80%] h-auto pt-16 pb-20 mx-auto sticky top-0 bg-gradient-to-b from-55% from-[#1E252B] z'>
+    <div className='w-[80%] h-auto pt-16 pb-20 mx-auto sticky top-0 bg-gradient-to-b from-55% from-[#1E252B] z-10'>
       <div className="navbar ">
         <div className="navbar-start">
           <img src="/png/logo.png" alt="" />

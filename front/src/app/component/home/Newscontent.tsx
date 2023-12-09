@@ -65,19 +65,19 @@ export default function NewsContent() {
         <div className='basis-3/12 flex flex-col gap-7 mt-[-100px]'>
           <div className=' w-[80%] mx-auto'>
             <p className='text-center text-white font-Poppins font-medium mb-5'>Ads Sponsored</p>
-            <div className='w-full h-72 bg-[#2C353D] rounded-xl'>
+            <div className='w-full h-auto bg-[#2C353D] rounded-xl aspect-square'>
               <img className='' src="" alt="" />
             </div>
           </div>
           <div className=' w-[80%] mx-auto'>
             <p className='text-center text-white font-Poppins font-medium mb-5'>Ads Sponsored</p>
-            <div className='w-full h-72 bg-[#2C353D] rounded-xl'>
+            <div className='w-full h-auto bg-[#2C353D] rounded-xl aspect-square'>
               <img className='' src="" alt="" />
             </div>
           </div>
           <div className=' w-[80%] mx-auto'>
             <p className='text-center text-white font-Poppins font-medium mb-5'>Ads Sponsored</p>
-            <div className='w-full h-72 bg-[#2C353D] rounded-xl'>
+            <div className='w-full h-auto bg-[#2C353D] rounded-xl aspect-square'>
               <img className='' src="" alt="" />
             </div>
           </div>
