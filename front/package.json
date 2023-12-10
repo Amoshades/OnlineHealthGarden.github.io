@@ -14,7 +14,8 @@
     "next": "^13.5.3",
     "react": "latest",
     "react-dom": "latest",
-    "supports-color": "^9.4.0"
+    "supports-color": "^9.4.0",
+    "typescript-cookie": "^1.0.6"
   },
   "devDependencies": {
     "@iconify/react": "^4.1.1",
